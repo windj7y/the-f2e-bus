@@ -1,0 +1,45 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+img{
+	display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+p, ul{
+  margin-bottom: 0;
+}
+
+.main{
+  padding: 55px 82px 0;
+  margin-left: 142px;
+}
+
+.footer{
+  padding: 28px 0;
+  margin-left: 142px;
+}
+
+.wrap{
+  padding: 50px 75px;
+  background: $white;
+  border-radius: 16px;
+}

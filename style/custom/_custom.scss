@@ -1,0 +1,34 @@
+.two-color-{
+  &item{
+    font-size: 18px;
+    padding: 24px 70px;
+    border-bottom: 1px solid $white;
+
+    &:nth-child(odd){
+      background: #F6F7FF;
+    }
+  
+    &:nth-child(even){
+      background: #ECEEFF;
+    }
+  }
+}
+
+.custom-link{
+  font-size: 18px;
+  font-weight: bold;
+  color: $white;
+  background: #BFCDFF;
+  padding: 12px;
+
+  &:hover, &.active{
+    color: $white;
+    background: map-get($theme-colors, 'primary');
+  }
+}
+
+.map{
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}

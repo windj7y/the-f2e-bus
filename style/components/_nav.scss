@@ -1,0 +1,18 @@
+.nav-{
+  &item{
+    margin-bottom: 40px;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  &link{
+    padding: 16px;
+    border-radius: 16px;
+
+    &:hover, &.active{
+      background: #2A4AC2;
+    }
+  }
+}
